@@ -14,5 +14,9 @@ public class MainController {
         return "index";
     }
 
+    @GetMapping("/catalog")
+    public String tra() {
+        return "catalog";
+    }
 
 }
